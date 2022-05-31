@@ -1,0 +1,12 @@
+Country Name (2 letter code) [AU]:CN
+State or Province Name (full name) [Some-State]:shenyang
+Locality Name (eg, city) []:shenyang
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:ljy
+Organizational Unit Name (eg, section) []:ljy
+Common Name (e.g. server FQDN or YOUR name) []:www.node.js.com
+Email Address []:1628253184@qq.com
+
+Please enter the following 'extra' attributes
+to be sent with your certificate request
+A challenge password []:zxcvbnm
+An optional company name []:ljy

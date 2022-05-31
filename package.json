@@ -1,0 +1,33 @@
+{
+  "name": "koaserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./http/cluster.js",
+    "serve": "nodemon ./main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^4.27.9",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-logger": "^3.2.1",
+    "koa-range": "^0.3.0",
+    "koa-router": "^10.1.1",
+    "koa-session": "^6.2.0",
+    "koa-sslify": "^5.0.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^7.0.2",
+    "koa2-cors": "^2.0.6",
+    "koa2-request": "^1.0.4",
+    "koa2-static": "^1.0.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "redis": "^3.1.2",
+    "request": "^2.88.2",
+    "socket.io": "^4.4.1"
+  },
+  "description": ""
+}

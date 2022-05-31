@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.desc{
+  width: 60%;
+  margin: 10px auto 50px;
+  padding: 60px 0;
+}
+h1,h2{
+  text-align: center;
+}
+h4{
+  margin-bottom:4px;
+}
+.content{
+  padding: 1px 2em;
+}
+#app{
+  margin: 20px auto;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}

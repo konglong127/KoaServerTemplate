@@ -6,8 +6,7 @@
 
 | npm start     | 启动所有服务器      |
 | ------------- | ------------------- |
-| npm run http  | 启动一个http服务器  |
-| npm run https | 启动一个https服务器 |
+| npm run serve | 启动一个服务器  |
 
 ※修改config.js文件配置，添加router.js列表，接口在controller文件中，用到中间件在middlewares文件夹中。
 
@@ -65,27 +64,11 @@ ctx.render(‘index/index.html’,{});
 
 存放图片等静态资源（路径开在public文件xia）
 
-# 6.db
-
-数据库连接，处理模块
-
-# 7.http
-
-创建http和https服务器模块
-
-# 8.log
+# 6.log
 
 日志处理，存放日志
 
-# 9.keys
-
-存放ssl证书
-
-# 10.token
-
-token处理模块，用于解密cookie、session
-
-# 11.config
+# 7.config
 
 服务配置文件，配置在config.js中
 
@@ -95,9 +78,9 @@ wx:[
 
 ​      name:'小程序名',
 
-​      appid:'wx35ce20d80ab82a8b',
+​      appid:'',
 
-​      secret:'3f73797632c0fdad41aa226df60cfc3f'
+​      secret:''
 
 ​    }
 
@@ -129,7 +112,7 @@ db:{
 
 plugin.js中可以添加一些插件，可以避免在接口中重复引入
 
-# 12.middlewares
+# 8.middlewares
 
 添加中间件，要在http文件中的http.js和https.js中引入（不用关心文件名）
 

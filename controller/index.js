@@ -20,15 +20,15 @@
 //   }
 // };
 
-class index{
+class index {
   async indexPage(ctx) {
     let { render } = ctx;
     await render('index/index.html', {});
   }
-  async getMsg(ctx){
-    let {mysql,moment,log,request,response}=ctx;
-    response.body=moment().format('YYYY-MM-DD hh:mm:ss');
+  async getMsg(ctx) {
+    let { mysql, moment, log, request, response } = ctx;
+    response.body = moment().format('YYYY-MM-DD hh:mm:ss');
   }
 };
 
-module.exports=index;
+module.exports = index;

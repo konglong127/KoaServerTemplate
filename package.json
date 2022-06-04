@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "co-body": "^6.1.0",
+    "formidable": "^2.0.1",
+    "ioredis": "^4.27.9",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.13.1",
     "koa-logger": "^3.2.1",
@@ -23,7 +26,6 @@
     "koa2-static": "^1.0.1",
     "moment": "^2.29.1",
     "mysql": "^2.18.1",
-    "ioredis": "^4.27.9",
     "request": "^2.88.2"
   },
   "description": ""

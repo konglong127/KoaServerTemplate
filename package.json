@@ -26,7 +26,8 @@
     "koa2-static": "^1.0.1",
     "moment": "^2.29.1",
     "mysql": "^2.18.1",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "ws": "^8.7.0"
   },
   "description": ""
 }

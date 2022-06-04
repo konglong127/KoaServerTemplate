@@ -1,6 +1,6 @@
 // 子进程接收外部连接，包括代理进程
 const path = require('path');
-const mysql = require(path.resolve(__dirname, '../../utils/database/mysql'));
+// const mysql = require(path.resolve(__dirname, '../../utils/database/mysql'));
 // const redis = require(path.resolve(__dirname, '../../utils/database/redis'));
 const keys='8y_n+2=d3<y!e@r#a,d;12ja|"h?m8`!2,>j.dj1';
 

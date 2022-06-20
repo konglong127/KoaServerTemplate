@@ -1,6 +1,6 @@
 const path=require('path');
 const fs=require('fs');
-const config=require('../../config/config');
+const config=require('../../config');
 
 module.exports=()=>{
   let mws=config.middlewares;

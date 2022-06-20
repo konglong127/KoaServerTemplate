@@ -2,7 +2,7 @@
 // npm run serve 单独启动
 const path = require('path');
 
-module.exports = {
+const config = {
     // wx: [
     //     {
     //         name: '',
@@ -11,13 +11,14 @@ module.exports = {
     //     }
     // ],
 
+    
     // http配置
     server: {
         //服务器类型 http、https、http2
         type: 'http',
         // type: 'https',
-        keyPath: path.resolve(__dirname, '../utils/keys/private.pem'),
-        certPath: path.resolve(__dirname, '../utils/keys/file.crt'),
+        keyPath: path.resolve(__dirname, './utils/keys/private.pem'),
+        certPath: path.resolve(__dirname, './utils/keys/file.crt'),
         // 代理，通过socket实现进程间通信
         // agent:81,
         //进程监听的端口号
@@ -71,3 +72,5 @@ module.exports = {
     // 是否输出日志记录情况
     logConsole: false
 }
+
+module.exports = config

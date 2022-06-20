@@ -1,6 +1,6 @@
 const path = require('path');
-const config = require(path.resolve(__dirname, './config/config')).server;
-const http = require(path.resolve(__dirname, './http/http'));
+const config = require(path.resolve(__dirname, '../config')).server;
+const http = require(path.resolve(__dirname, './http'));
 
 if (config.type == 'https') {
   http.create(config.workers[0] || { port: 443, role: 'worker' }, false);

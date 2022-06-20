@@ -1,7 +1,7 @@
 const MySQL = require('mysql');
 const path = require('path');
 const log = require(path.resolve(__dirname, '../../log/log'));
-const { mysql, server } = require(path.resolve(__dirname, '../../config/config'));
+const { mysql, server } = require(path.resolve(__dirname, '../../config'));
 var arr = [];
 
 var connection;

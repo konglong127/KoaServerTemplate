@@ -32,9 +32,9 @@ class HttpServer{
         // 引入路由列表
         this.routerList=require(path.resolve(__dirname,'../router/router'));
         // http配置文件
-        this.httpConfig=require(path.resolve(__dirname,'../config/config')).server;
+        this.httpConfig=require(path.resolve(__dirname,'../config')).server;
         // 指定文件上传接口
-        this.uploadUrl=require(path.resolve(__dirname,'../config/config')).uploadUrl;
+        this.uploadUrl=require(path.resolve(__dirname,'../config')).uploadUrl;
     }
     create(info,serverSocket){
         this.port=info.port;

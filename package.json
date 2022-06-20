@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./http/cluster.js",
-    "serve": "nodemon ./main.js"
+    "serve": "nodemon ./http/alone.js"
   },
   "author": "",
   "license": "ISC",

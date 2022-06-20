@@ -1,5 +1,5 @@
 const path=require('path');
-const config=require(path.resolve(__dirname,'../../config/config.js')).redis;
+const config=require(path.resolve(__dirname,'../../config')).redis;
 const Redis=require('ioredis');
 const redis=new Redis(config.redis||{});
 

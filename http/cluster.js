@@ -2,7 +2,7 @@ class Cluster{
     constructor(){
         this.path=require('path');
         this.cluster=require('cluster');
-        this.serverConfig=require(this.path.resolve(__dirname,'../config/config')).server;
+        this.serverConfig=require(this.path.resolve(__dirname,'../config')).server;
         this.log=require(this.path.resolve(__dirname,'../log/log'));
         this.totalWorkers=0;
         this.workers=[];

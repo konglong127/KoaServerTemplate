@@ -1,6 +1,6 @@
 const fs=require('fs');
 const path=require('path');
-const config=require(path.resolve(__dirname,'../config/config'));
+const config=require(path.resolve(__dirname,'../config'));
 
 module.exports=(msg,type)=>{
     fs.readdir(__dirname,'utf-8',(err,data)=>{

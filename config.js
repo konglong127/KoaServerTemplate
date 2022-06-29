@@ -1,6 +1,5 @@
 // npm start 启动服务器
 // npm run serve 单独启动
-const path = require('path');
 
 const config = {
     // wx: [
@@ -17,8 +16,8 @@ const config = {
         //服务器类型 http、https、http2
         type: 'http',
         // type: 'https',
-        keyPath: path.resolve(__dirname, './utils/keys/private.pem'),
-        certPath: path.resolve(__dirname, './utils/keys/file.crt'),
+        keyPath: './utils/keys/private.pem',
+        certPath: './utils/keys/file.crt',
         // 代理，通过socket实现进程间通信
         // agent:81,
         //进程监听的端口号

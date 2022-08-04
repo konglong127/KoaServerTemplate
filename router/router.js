@@ -15,6 +15,7 @@ module.exports = (router) => {
         router
             .get('/',controller.indexPage)
             .get('/getMsg',controller.getMsg)
+            .post('/getData',controller.getData)
 
         await next();
     }

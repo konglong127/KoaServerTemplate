@@ -18,6 +18,11 @@ class index {
     let { mysql, moment, log, request, response } = ctx;
     response.body = moment().format('YYYY-MM-DD hh:mm:ss');
   }
+  async getData(ctx) {
+    let { request, response } = ctx;
+    console.log(request.body);
+    response.body='ok'
+  }
 };
 
 module.exports = index;

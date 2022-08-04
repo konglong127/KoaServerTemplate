@@ -44,8 +44,8 @@ const config = {
     mysql: {
         host: 'localhost',
         user: 'root',
-        password: 'root',
-        database: 'test'
+        password: '',
+        database: 'react_test'
     },
 
     // redis配置，可以全部省略
